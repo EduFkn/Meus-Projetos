@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "montserrat", sans-serif;
 }
 
 body {
@@ -177,3 +176,20 @@ h2 {
     text-align: initial;
   }
 }
+@media(max-width=1580px){.caixa-filho,.caixa-filho2,.caixa-filho3,.caixa-principal{
+  display: block;
+  margin:auto;
+  padding:auto;
+
+
+}
+}
+@media(max-width:780px){
+  header{
+    padding:auto;
+    margin:auto;
+    display: block;
+  }
+}
+
+  
