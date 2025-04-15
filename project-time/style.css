@@ -5,7 +5,7 @@
   font-family: "Open Sans", sans-serif;
 }
 body{
-  background-image: url("https://24.media.tumblr.com/83edd69c7fb6aff354676cb4b0ff998d/tumblr_mx4s1x0xd11szol4po1_500.gif");
+  background-image: url("https://i.pinimg.com/originals/a0/95/79/a095793d809f2e134db9f8b3fb55ba95.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,9 +17,12 @@ body{
  
 }
 .big-box{
-  background: #0000009e;
-opacity: 1.0;
+  background: #000000;
+opacity: 0.9;
   border-radius: 25px;
+  border: 3px solid;
+  border-image-slice: 1;
+  animation: mudaCor 3s linear infinite;
   border: 1px solid #ffffff1c;
   padding: 23px;
   color:white;
@@ -32,8 +35,8 @@ opacity: 1.0;
 .input-city{
   border: none;
   outline: none;
-  padding: 10px;
-  border-radius: 25px;
+  padding: 9px;
+  border-radius: 30px;
   font-size: 18px;
   background-color: #7c7c7c2b;
   color:white;
@@ -43,7 +46,7 @@ opacity: 1.0;
   border: none;
   outline: none;
   padding: 10px;
-  background-color: #ffffff2b;
+  background-color: #ffffff6e;
   cursor: pointer;
   border-radius: 50px;
   float: right;
@@ -61,6 +64,7 @@ opacity: 1.0;
   font-size: 18px;
   font-weight: 900;
   text-transform:uppercase;
+
 }
 
 .temp{
@@ -77,10 +81,23 @@ opacity: 1.0;
   color: white;
   margin-left: 20px;
   text-transform: capitalize;
+  padding-left:20px ;
 }
 .umidade{
   color:white;
   margin-top: 20px;
   text-transform: capitalize;
   font-weight: 400;
+}
+@keyFrames mudaCor{
+  0%{ border-color:white;
+}
+25%{ border-color:gray;
+}
+50%{ border-color:white;
+}
+75%{ border-color:gray;
+}
+100%{ border-color:gray;
+}
 }
