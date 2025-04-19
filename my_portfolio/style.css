@@ -276,7 +276,7 @@ footer a{
   display: flex;
   width: max-content;
   animation: deslizar 25s linear infinite;
-  min-width: 100vh;
+  min-width: 200vh;
   
   
 }
